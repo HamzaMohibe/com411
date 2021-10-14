@@ -1,5 +1,5 @@
 print("Program Started")
-print("Please enter an ASCII code:")
+print("Please enter a standard character")
 char = input()
 if len(char) == 1:
     asc = ord(char)
