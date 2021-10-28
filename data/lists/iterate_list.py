@@ -6,8 +6,10 @@ def directions():
 def menu():
     print("Please select a direction:")
     dirs = directions()
-    for index in range(len(dirs)):
-        print(f"{index}: {dirs[index]}")
+    # for index in range(len(dirs)):
+    #     print(f"{index}: {dirs[index]}")
+    for index, value in enumerate(dirs):
+        print(index, value)
 
 
 def run():
